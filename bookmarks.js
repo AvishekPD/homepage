@@ -4,7 +4,7 @@ const bookmarks = [
     title: "Daily",
     links: [
       { name: "Inbox", url: "https://inbox.google.com" },
-      { name: "GitHub", url: "https://github.com" },
+      { name: "GitHub", url: "https://github.com/AvishekPD" },
       { name: "Drive", url: "https://drive.google.com" },
     ],
   },
@@ -14,27 +14,20 @@ const bookmarks = [
       { name: "Youtube", url: "https://youtube.com" },
       { name: "Netflix", url: "https://netflix.com" },
       { name: "Crunchyroll", url: "https://crunchyroll.com" },
-      {
-        name: "Amazon Prime",
-        url: "https://www.amazon.com/Amazon-Video",
-      },
     ],
   },
   {
     title: "Reddit",
     links: [
-      { name: "/r/overwatch", url: "https://reddit.com/r/overwatch" },
+      { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
       {
         name: "/r/pcmasterrace",
         url: "https://reddit.com/r/pcmasterrace",
       },
-      { name: "/r/me_irl", url: "https://reddit.com/r/me_irl" },
       {
-        name: "/r/battlestations",
-        url: "https://reddit.com/r/battlestations",
+        name: "/r/osugame",
+        url: "https://reddit.com/r/osugame",
       },
-      { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
-      { name: "/r/news", url: "https://reddit.com/r/news" },
     ],
   },
   {
@@ -42,6 +35,7 @@ const bookmarks = [
     links: [
       { name: "Twitter", url: "https://twitter.com" },
       { name: "Facebook", url: "https://facebook.com" },
+	{ name: "osu!", url: "https://osu.ppy.sh" },
     ],
   },
 ];

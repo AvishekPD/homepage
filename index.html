@@ -32,7 +32,7 @@
 
     <script src="bookmarks.js"></script>
     <script>
-      const searchUrl = "https://google.com/search?q=";
+      const searchUrl = "https://duckduckgo.com/search?q=";
       // Search on enter key event
       function search(e) {
         if (e.keyCode == 13) {
@@ -62,14 +62,14 @@
         // Request to open weather map
         xhr.open(
           "GET",
-          "http://api.openweathermap.org/data/2.5/weather?id=4737316&units=imperial&appid=e5b292ae2f9dae5f29e11499c2d82ece"
+          "http://api.openweathermap.org/data/2.5/weather?lat=18.910100&lon=72.805062&units=metric&appid=a3f17ab9b65581d4188174b8374f7069"
         );
         xhr.onload = () => {
           if (xhr.readyState === 4) {
             if (xhr.status === 200) {
               let json = JSON.parse(xhr.responseText);
               document.getElementById("temp").innerHTML =
-                json.main.temp.toFixed(0) + " F";
+                json.main.temp.toFixed(0) + " C";
               document.getElementById("weather-description").innerHTML =
                 json.weather[0].description;
             } else {
